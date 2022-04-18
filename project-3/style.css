@@ -1,8 +1,11 @@
 body {
-    background-color: lime;
-
-
-
+    background-color: red;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+position: absolute;
+width: 1728px;
+height: 1117px;
+   
+    
 }
 
 .bigger {
@@ -11,3 +14,50 @@ body {
     border-radius: 0%;
     transition: width 2s, height 2s;
 }
+
+.indexbackground {
+position: fixed;
+left: 0px;
+top: 0px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+width: 1800px;
+height: 1117px;
+ mix-blend-mode: lighten;
+opacity: 0.75;
+    
+}
+
+.girl {
+position: fixed;
+width: 1685px;
+height: 1685px;
+left: -490px;
+top: -120px; 
+filter: drop-shadow(35px 4px 4px rgba(0, 0, 0, 0.25));     
+}
+
+.letherlive {
+ position: absolute;
+
+left: 512px;
+top: 251px;
+
+font-family: 'Comforter Brush', cursive;
+font-style: normal;
+font-weight: 350;
+font-size: 120px;
+line-height: 10px;
+
+color: #FFFFFF;
+   
+    
+}
+
+
+
+
+
+
+
+
+
