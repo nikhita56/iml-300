@@ -1,3 +1,11 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
 body {
     background-color: red;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
@@ -27,14 +35,16 @@ opacity: 0.75;
     
 }
 
+
 .girl {
-position: fixed;
+position: absolute;
 width: 1685px;
 height: 1685px;
 left: -490px;
 top: -120px; 
 filter: drop-shadow(35px 4px 4px rgba(0, 0, 0, 0.25));     
 }
+
 
 .letherlive {
 
@@ -52,35 +62,78 @@ color: #FFFFFF;
 }
 
 .button {
+
  position: absolute;
 width: 378px;
 height: 100px;
 left: 750px;
 top: 592px;
-
+ 
 border: 3px solid #FFFFFF;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
 }
+
+.button:hover {
+  transition: color 0.25s ease;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: middle;
+
+  background: orange;
+  z-index: -1;
+  transition: transform 0.5s ease;
+}
+
+.button:hover::after {
+  transform: scaleY(1);
+}
+
 .buttontext {
  
 position: absolute;
 width: 409px;
 height: 68px;
 left: 860px;
-top: 570px;
+top: 600px;
 
 font-family: 'Inria Serif',serif;
 font-style: normal;
 font-weight: 700;
-font-size: 25px;
+font-size: 50px;
 line-height: 77px;
-color: #FFFFFF;   
+  
     
 }
+.girl2 {
+     transform: rotate(180deg);
+position: absolute;
+width: 1685px;
+height: 1500px;
+left: 750px;
+top: -500px;
 
 
+background: url(girl2.png);
+filter: drop-shadow(35px 4px 4px rgba(0, 0, 0, 0.25));   
+}
 
+.boxxxxx1 {
+position: absolute;
+width: 1400px;
+height: 1300px;
+left: 3200px;
+top: -200px;
+     
+    
+}
 
 
 
