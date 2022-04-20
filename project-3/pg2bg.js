@@ -46,14 +46,15 @@ class Particle {
 let particles = [];
 
 function setup() {
-  createCanvas(720, 400);
+//  createCanvas(720, 400);
+    createCanvas(window.innerWidth, window.innerHeight);
   for(let i = 0;i<width/10;i++){
     particles.push(new Particle());
   }
 }
 
 function draw() {
-  background('black');
+  background('#960a00');
   for(let i = 0;i<particles.length;i++) {
     particles[i].createParticle();
     particles[i].moveParticle();
