@@ -152,5 +152,23 @@ body {
     font-weight: 700;
     font-size: 50px;
     line-height: 77px;
-    color: floralwhite
+    color: lightpink
 }
+
+.boxtext1 {
+  position: absolute;
+    width: 800px;
+    height: 40px;
+    left: 3500px;
+    top: 250px;
+
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: floralwhite
+    
+}
+
+
