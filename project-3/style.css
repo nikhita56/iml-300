@@ -347,12 +347,118 @@ canvas {
 }
 
 .girlhead {
- position: absolute;
-    width: 750px;
-    height: 750px;
-    left: -20px;
-    top: 142px;
+ 
+      width: 796px;
+    margin-left: -182px;
+    margin-top: -214px;
     filter: drop-shadow(10px 2px 2px rgba(0, 0, 0, 0.25));
-   z-index: 5; 
+    z-index: 5;
     
 }
+.box3text1 {
+ position: absolute;
+    left: 200px;
+    top: 80px;
+    width: fit-content;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+
+    font-size: 40px;
+    line-height: 30px;
+
+    color: #d67600;
+   
+    
+}
+
+.box3text2 {
+
+    margin-left: -40px;
+    margin-top:70px;
+    width: fit-content;
+    font-family: 'Comforter Brush', cursive;
+    font-style: normal;
+
+    font-size: 150px;
+    line-height: 30px;
+
+    color: #d63600;
+
+}
+.box3text3 {
+ position: absolute;
+    margin-left: 150px;
+    margin:top: 150px;
+    width: fit-content;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+
+    font-size: 40px;
+    line-height: 30px;
+
+    color: #d67600;
+   
+    
+}
+
+.box3text4 {
+
+    margin-left: 80px;
+    margin-top: 130px;
+    width: fit-content;
+    font-family: 'Comforter Brush', cursive;
+    font-style: normal;
+
+    font-size: 150px;
+    line-height: 30px;
+
+    color: #d63600;
+
+}
+.girlhead3 {
+ 
+      width: 420px;
+    margin-left: -15px;
+    margin-top: -155px;
+    filter: drop-shadow(10px 2px 2px rgba(0, 0, 0, 0.25));
+    z-index: 5;
+}
+    
+    .box2text1 {
+ position: absolute;
+    margin-left: 2px;
+    margin-top: 40px;
+    width: fit-content;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+
+    font-size: 40px;
+    line-height: 30px;
+
+    color: #d67600;
+   
+    
+}
+.box2text2 {
+
+    margin-left: 85px;
+    margin-top:110px;
+    width: fit-content;
+    font-family: 'Comforter Brush', cursive;
+    font-style: normal;
+
+    font-size: 150px;
+    line-height: 30px;
+
+    color: #d63600;
+
+}
+.girlhead2 {
+ 
+      width: 420px;
+    margin-left: -20px;
+    margin-top: -175px;
+    filter: drop-shadow(10px 2px 2px rgba(0, 0, 0, 0.25));
+    z-index: 5;
+}
+    
