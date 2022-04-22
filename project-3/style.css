@@ -89,7 +89,7 @@ body {
 
 .textbox:hover {
 
-     box-shadow: 15px 15px rgba(212, 120, 0, 0.40);
+    box-shadow: 15px 15px rgba(212, 120, 0, 0.40);
 }
 
 .textbox1 {
@@ -108,7 +108,7 @@ body {
 .textbox1:hover {
 
     box-shadow: 15px 15px rgba(212, 120, 0, 0.40);
-   
+
 }
 
 .textbox2 {
@@ -126,7 +126,7 @@ body {
 
 .textbox2:hover {
 
-     box-shadow: 15px 15px rgba(212, 120, 0, 0.40);
+    box-shadow: 15px 15px rgba(212, 120, 0, 0.40);
 }
 
 button {
@@ -271,8 +271,8 @@ canvas {
     z-index: 1;
 }*/
 .letherlivepg2 {
-    
-position: absolute;
+
+    position: absolute;
     left: 340px;
     top: 10opx;
     width: fit-content;
@@ -283,21 +283,76 @@ position: absolute;
     line-height: 30px;
 
     color: "black";
-  display:none;
-    
+    display: none;
+
 }
 
 .box1text {
- position: absolute;
-    left: 340px;
-    top: 10opx;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    width: fit-content;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+
+    font-size: 40px;
+    line-height: 30px;
+
+    color: #d67600;
+
+}
+
+.box1text2 {
+    position: absolute;
+    left: 170px;
+    top: 80px;
     width: fit-content;
     font-family: 'Comforter Brush', cursive;
     font-style: normal;
-    font-weight: 350;
-    font-size: 80px;
+
+    font-size: 150px;
     line-height: 30px;
 
-    color: "black";   
+    color: #d63600;
+
+}
+
+.box1text3 {
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    width: fit-content;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+
+    font-size: 40px;
+    line-height: 30px;
+
+    color: #d67600;
+}
+
+.box1text4 {
+    position: absolute;
+    left: 170px;
+    top: 300px;
+    width: fit-content;
+    font-family: 'Comforter Brush', cursive;
+    font-style: normal;
+
+    font-size: 150px;
+    line-height: 30px;
+
+    color: #d63600;
+
+}
+
+.girlhead {
+ position: absolute;
+    width: 750px;
+    height: 750px;
+    left: -20px;
+    top: 142px;
+    filter: drop-shadow(10px 2px 2px rgba(0, 0, 0, 0.25));
+   z-index: 5; 
     
 }
