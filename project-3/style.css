@@ -475,10 +475,11 @@ canvas {
 
 }
 #container-1{
-   
-    height: 400px;
+
+    height: 600px;
+    background-image: url(asset/child-marriage.webp);
     
-    
+     background-size: cover;
 
 }
 #container-2{
@@ -513,5 +514,33 @@ canvas {
 
     color: dimgrey;   
     font-family: 'Playfair Display', serif;
+}
+#containertoptext2{
+  font-size: 100px;
+    margin-left: 920px;
+    margin-top: 750px;
+  
+}
+.containerbottomtext {
+   
+    position: absolute;
+    margin-left:970px;
+    margin-top: 740px;
+    width: fit-content;
+ 
+    font-style: normal;
+
+    font-size: 25px;
+    line-height: 30px;
+
+    color: dimgrey;   
+    font-family: 'Inria Serif', serif;
+    
+}
+.containerbottomtext::first-letter {
+float: left;
+    font-size: 120px;
+    margin: 0 .1em 0 0;
+    line-height: 0.85;
 }
     
