@@ -8,5 +8,5 @@ $(".girl2").slideDown('slow');
     
     
  
-    
+ $(".letherlivepg2").fadeIn('slow');  
 });
