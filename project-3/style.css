@@ -577,3 +577,43 @@ canvas {
     margin-top: -60px;
 }
 
+.container3bottomtext {
+    position: absolute;
+    margin-left: 279px;
+    margin-top: 155px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: dimgrey;
+    font-family: 'Inria Serif', serif;
+}
+.container3bottomtext::first-letter {
+    float: left;
+    font-size: 120px;
+    margin: 0 .1em 0 0;
+    line-height: 0.95;
+}
+
+.peonybottom {
+      position: absolute;
+    margin-top: 426px;
+    margin-left: -259px;
+    width: 700px;
+    height: 700px;
+    
+   
+}
+.page3textbottom {
+ text-align: left;
+    position: absolute;
+    margin-left: 793px;
+    margin-top: 688px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 150px;
+    line-height: 30px;
+    color: floralwhite;
+    font-family: 'Playfair Display', serif; 
+}
+
