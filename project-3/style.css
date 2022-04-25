@@ -809,3 +809,27 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
    transform: scaleX(-1);
     margin-left:1043px;  
 }
+.page3bottomtext {
+    position: absolute;
+    margin-left: 296px;
+    margin-top: -1060px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: skyblue;
+    font-family: 'Inria Serif', serif;
+}
+.page3bottomtext::first-letter {
+    float: left;
+    font-size: 120px;
+    margin: 0 .1em 0 0;
+    line-height: 0.95;
+}
+.bottomflower {
+       position: absolute;
+    margin-top: -803px;
+    margin-left: -158px;
+    width: 700px;
+    height: 700px;
+}
