@@ -795,3 +795,17 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
 #borderimagepg3 {
   margin-top: 286px;  
 }
+.pg3topimage {
+         position: absolute;
+    margin-top: -210px;
+    margin-left: -216px;
+    z-index: 100;
+    width: 800px;
+    transform: rotate(-15deg);
+    
+    
+}
+#pg3topimage {
+   transform: scaleX(-1);
+    margin-left:1043px;  
+}
