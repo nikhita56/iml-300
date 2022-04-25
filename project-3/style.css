@@ -141,7 +141,7 @@ button {
     height: 100px;
     left: 260px;
     top: 450px;
-color:pink;
+
     border: 3px solid lightblue;
   
     box-sizing: border-box;
@@ -724,4 +724,74 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
        margin-left: 645px;
     margin-top: 521px;
     width: 400px;
+}
+.containerpg3 {
+    height: 100%;
+    padding: 100px;
+
+    background-image: url(asset/yellowbackground.jpeg);
+
+}
+
+#containerpg3 {
+
+    height: 600px;
+    background-image: url(asset/pg3bg.png);
+
+    background-size: cover;
+
+}
+.pg3toptext {
+ position: absolute;
+    margin-left: 871px;
+    margin-top: 69px;
+    width: fit-content;
+    font-family: 'Ms Madi', cursive;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 30px;
+    color: skyblue;
+    }
+.pg3toptext2 {
+   text-align: center;
+    position: absolute;
+    margin-left: 585px;
+    margin-top: 93px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 250px;
+    line-height: 30px;
+    color: skyblue;
+    font-family: 'Playfair Display', serif;
+}
+.pg3bottomtext {
+
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 740px;
+    width: fit-content;
+
+    font-style: normal;
+
+    font-size: 25px;
+    line-height: 30px;
+
+    color: skyblue;
+    font-family: 'Inria Serif', serif;
+
+}
+
+.pg3bottomtext::first-letter {
+    float: left;
+    font-size: 120px;
+    margin: 0 .1em 0 0;
+    line-height: 0.85;
+}
+.borderimagepg3 {
+    margin-top: 278px;
+    margin-left: -111px;
+    z-index: 100;
+}
+#borderimagepg3 {
+  margin-top: 286px;  
 }
