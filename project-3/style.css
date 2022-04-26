@@ -922,7 +922,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     
 }
 .img1 {
-    position:fixed;
+    position:absolute;
     margin-left: 251px;
     margin-top: -2183px;
     z-index: 100;
