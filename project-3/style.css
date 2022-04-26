@@ -148,6 +148,7 @@ button {
 font-size: 30px;
     font-family: 'Inria Serif', serif;
     color:orange;
+    display:none;
 }
 
 
@@ -449,7 +450,7 @@ canvas {
     padding: 100px;
 
     background-image: url(asset/istockphoto-1154434688-170667a.jpg);
-display:none;
+
 }
 
 #container-1 {
@@ -475,6 +476,7 @@ display:none;
     line-height: 30px;
 
     color: dimgray;
+    display:none;
 
 }
 
@@ -492,6 +494,7 @@ display:none;
 
     color: dimgrey;
     font-family: 'Playfair Display', serif;
+    display: none;
 }
 
 #containertoptext2 {
@@ -515,6 +518,7 @@ display:none;
 
     color: dimgrey;
     font-family: 'Inria Serif', serif;
+    display: none;
 
 }
 
@@ -541,6 +545,7 @@ display:none;
     margin-left: 820px;
     z-index: 100;
     transform: rotate(20deg);
+    display:none;
 }
 
 #topimage {
@@ -611,6 +616,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     font-size: 70px;
     line-height: 30px;
     color: azure;
+    display:none;
 }
 .pg2toptext2 {
   text-align: center;
@@ -625,7 +631,8 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     line-height: 30px;
 
     color: azure;
-    font-family: 'Playfair Display', serif;  
+    font-family: 'Playfair Display', serif;
+    display:none;
 }
 .pg2bottomtext {
 
@@ -641,6 +648,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
 
     color: azure;
     font-family: 'Inria Serif', serif;
+    display:none;
 
 }
 
@@ -661,6 +669,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     margin-left: 765px;
     z-index: 100;
     filter: drop-shadow(-15px 10px 4px #FFFFFF);
+    display:none;
     
 }
 #pg2topimage {
@@ -751,6 +760,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     font-size: 70px;
     line-height: 30px;
     color: skyblue;
+    display:none;
     }
 .pg3toptext2 {
    text-align: center;
@@ -763,6 +773,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     line-height: 30px;
     color: skyblue;
     font-family: 'Playfair Display', serif;
+    display:none;
 }
 .pg3bottomtext {
 
@@ -778,6 +789,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
 
     color: skyblue;
     font-family: 'Inria Serif', serif;
+    display:none;
 
 }
 
@@ -802,6 +814,7 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     z-index: 100;
     width: 800px;
     transform: rotate(-15deg);
+    display:none;
     
     
 }
@@ -899,4 +912,27 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     line-height: 45px;
     color: #331107;
     font-family: 'Playfair Display', serif;   
+.pg6topimage {
+        position: absolute;
+    margin-top: -96px;
+    margin-left: 765px;
+    z-index: 100;
+    filter: drop-shadow(-15px 10px 4px #FFFFFF);
+ 
+    
 }
+.img1 {
+    position:fixed;
+    margin-left: 251px;
+    margin-top: -2183px;
+    z-index: 100;
+  
+    
+}
+/*
+#draggable {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+*/
