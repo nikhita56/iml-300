@@ -925,9 +925,37 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     position:absolute;
     margin-left: 251px;
     margin-top: -2183px;
+    z-index: 100;  
+}
+.img2 {
+    position: absolute;
+    margin-left: 416px;
+    margin-top: -2648px;
+    z-index: 100;  
+}
+.img3 {
+       position: absolute;
+    margin-left: 1062px;
+    margin-top: -1699px;
+    z-index: 100; 
+}
+.img4 {
+    position: absolute;
+    margin-left: 235px;
+    margin-top: -1544px;
     z-index: 100;
-  
-    
+}
+.img5 {
+     position: absolute;
+    margin-left: 1216px;
+    margin-top: -2323px;
+    z-index: 100;
+}
+.img6 {
+         position: absolute;
+    margin-left: 633px;
+    margin-top: -989px;
+    z-index: 100;
 }
 /*
 #draggable {
