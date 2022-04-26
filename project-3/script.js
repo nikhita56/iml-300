@@ -1,7 +1,12 @@
 $(document).ready(function() {
    
  
-    
+  $('.menu-button').click(function () {
+        $(this).toggleClass('open');
+        $('.menu').toggleClass('open');
+        $('.menu-bg').toggleClass('cover');
+    });
+  
   $(".girl").slideDown('slow');
 $(".girl2").slideDown('slow');
  
