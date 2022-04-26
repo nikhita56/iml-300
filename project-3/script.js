@@ -35,6 +35,9 @@ $(".containertoptext").slideDown('slow');
     $(".img4").draggable();
     $(".img5").draggable();
        $(".img6").draggable();
+    $(".pg6toptext1").fadeIn(slow);
+    $(".pg6toptext2").delay(900).fadeIn(slow);
+    
     
 });
 
