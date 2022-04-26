@@ -449,7 +449,7 @@ canvas {
     padding: 100px;
 
     background-image: url(asset/istockphoto-1154434688-170667a.jpg);
-
+display:none;
 }
 
 #container-1 {
@@ -849,4 +849,54 @@ background-image: url(asset/Free-Hd-Blue-Textured-Images-Joy-On-Blue-Background,
     margin-left: 825px;
     margin-top: -596px;
 } 
+.pg6background {
+   background: url(asset/pg6bg.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+
+}
+.pg6toptext1 {
+    position: absolute;
+    text-align: center;
+   margin-left: 751px;
+    margin-top: -3449px;
+    width: fit-content;
+    font-family: 'Ms Madi', cursive;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 30px;
+    color: #331107;
+    }
+.pg6toptext2 {
+     text-align: center;
+    position: absolute;
+        margin-left: 512px;
+    margin-top: -3327px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 200px;
+    line-height: 30px;
+    color: #331107;
+    font-family: 'Playfair Display', serif;
+}
+#pg6toptext2 {
+  text-align: center;
+    position: absolute;
+              text-align: center;
+    position: absolute;
+    margin-left: 477px;
+    margin-top: -3100px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 30px;
+    color: #331107;
+    font-family: 'Playfair Display', serif;
+}
+    margin-top: -3100px;
+    width: fit-content;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 45px;
+    color: #331107;
+    font-family: 'Playfair Display', serif;   
 }
