@@ -1,10 +1,33 @@
-
+a {
+  color: mediumpurple;
+  text-decoration: none;
+}
+a:hover {
+  color: lightpink;
+}
 iframe {
   width: 300px;
   height: 300px;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+body {
+    
+           padding: 40px;
+   font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+.first {
+        padding-right: 180px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
 }
